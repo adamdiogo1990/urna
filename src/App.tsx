@@ -12,7 +12,7 @@ function App() {
   const [lula, setLula] = useState<any>([]);
   const [bolsonaro, setBolsonaro] = useState<any>([]);
   const [msgLoading, setMsgLoading] = useState("Loading");
-  const contractAddress = "0xb942AE4F6C09b5408D40cbdF3980135cf8965435";
+  const contractAddress = "0x43c9E560740fa9bf502AD0aE701f136974a9Ab15";
   const contractABI = abi.abi;
 
   useEffect(() => {
